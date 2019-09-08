@@ -3,3 +3,29 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
 }
+
+.head {
+    text-align: center;
+    font-size: 3rem;
+    background: black;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.leftcol {
+    width: 500px;
+    height: 500px;
+    background: white;
+    color: black;
+}
+
+.rightcol {
+    width: 500px;
+    height: 500px;
+    background: lightgray;
+    color: black;
+}
+
+.column {
+    display: flex;
+}
